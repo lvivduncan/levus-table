@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> table </title>
+  <style>
+    :root {
+      --gray: #565656;
+    }
+
+    *,
+    ::after,
+    ::before {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 50px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    tr,
+    td {
+      padding: 5px;
+      border: 1px solid var(--gray);
+    }
+
+    hr{
+      margin: 10px 0;
+    }
+
+    /* спеціальний клас-обгортка для малих екранів */
+    .levus-table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+    </tr>
+    <tr>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+    </tr>
+    <tr>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+    </tr>
+    <tr>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <table>
+    <tr>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+    </tr>
+    <tr>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+    </tr>
+    <tr>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+    </tr>
+    <tr>
+      <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil veniam doloremque.</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo ullam repudiandae architecto
+        deleniti id illum molestias qui nesciunt saepe?</td>
+      <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque eos, molestias mollitia magni aliquid corrupti
+        alias vel et distinctio maiores, eligendi odio voluptates reprehenderit. Quia, nihil.</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+    </tr>
+  </table>
+
+  <script src="js/levus-table.js"></script>
+</body>
+
+</html>
